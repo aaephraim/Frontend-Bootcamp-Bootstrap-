@@ -1,0 +1,54 @@
+body {
+  width: 100%;
+}
+.navbar {
+  background-color: #a69cac;
+}
+
+.web {
+  color: #4c5b61;
+  text-decoration: underline #984447;
+}
+.enroll {
+  background-color: #c9d5b5;
+  color: rgb(65, 52, 52);
+}
+.newsLetter {
+  background-color: #a69cac;
+  color: #e2fcef;
+}
+.firstCard {
+  background-color: #c9c9c9;
+}
+.thirdCard {
+  background-color: #c5e0d8;
+}
+
+body::before {
+  display: block;
+  content: " ";
+  height: 40px;
+}
+
+.navbar-toggler-icon {
+  width: 1em;
+}
+.fundamental {
+  background-color: #555358;
+  color: whitesmoke;
+}
+.react {
+  background-color: #51daf6;
+  color: black;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
